@@ -1,0 +1,31 @@
+/* 
+A simple intiial resets to ensure correct styling, for use with simple, static HTML/CSS pages.
+Adapted slightly from Englebert Niehaus https://github.com/niebert/ 
+*/
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body,
+html {
+	font-family: sans-serif;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+html {
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
